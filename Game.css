@@ -1,0 +1,48 @@
+.Game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+
+  }
+  
+  .Game input, .Game button {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .Game button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Game button:hover {
+    background-color: #45a049;
+  }
+  
+  .Game table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .Game th, .Game td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .Game th {
+    background-color: #f2f2f2;
+  }
+  
+  .Game div {
+    margin: 5px;
+  }
+  

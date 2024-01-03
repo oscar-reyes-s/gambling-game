@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: white; /* White text */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Style adjustments for Game component if needed */
+.Game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1e1e1e; /* Slightly lighter dark background for the game area */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Game input, .Game button {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  background-color: #282828;
+  color: white;
+}
+
+.Game button {
+  background-color: #4CAF50;
+  border: none;
+}
+
+.Game button:hover {
+  background-color: #45a049;
+}
+
+.Game table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.Game th, .Game td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+.Game th {
+  background-color: #2a2a2a;
+}
